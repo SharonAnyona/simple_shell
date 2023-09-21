@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 
 /**
  **strtow - Divide a string into words ignoring repeat delimiters 
