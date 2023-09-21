@@ -74,14 +74,11 @@ typedef struct liststr
  *@readfd: line input is read from this fd
  *@histcount: line history of number count
  */
-
 typedef struct builtin
 {
 	char *type;
 	int (*func)(info_t *);
 } builtin_table;
-
-
 #define INFO_INIT \
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
 		0, 0, 0}
